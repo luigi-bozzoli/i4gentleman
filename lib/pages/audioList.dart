@@ -202,7 +202,7 @@ class audioListState extends State<audioList> {
             'Non inculo le capre', 'assets/danny/nonmiinculolecapre.mp3'),
         new audioCouple('Non mi metta in bocca cose che non ho detto',
             'assets/danny/nonmimettainbocca.mp3'),
-        new audioCouple('Non permertterti mai più',
+        new audioCouple('Non permetterti mai più',
             'assets/danny/nonpermettertimaipiu.mp3'),
         new audioCouple(
             'Ora degli schiaffoni', 'assets/danny/oradeglischiaffoni.mp3'),
@@ -243,9 +243,7 @@ class audioListState extends State<audioList> {
         new audioCouple('Sorregga, cortesemente', 'assets/danny/sorregga.mp3'),
         new audioCouple('Sta masturbando', 'assets/danny/stamasturbando.mp3'),
         new audioCouple('Sta minchia', 'assets/danny/staminchia.mp3'),
-        new audioCouple('Sto cazzo!', 'assets/danny/stocazzo.mp3'),
-        new audioCouple(
-            'Ha mai visto Stranger Things?', 'assets/danny/strangerthings.mp3'),
+       // new audioCouple('Ha mai visto Stranger Things?', 'assets/danny/strangerthings.mp3'),
         new audioCouple('Strunz quello piccolo mi mangio',
             'assets/danny/strunzquellipiccolo.mp3'),
         new audioCouple('Suca!', 'assets/danny/suca.mp3'),
@@ -268,13 +266,14 @@ class audioListState extends State<audioList> {
       list = tmp;
     } else if (widget.murry) {
       List<audioCouple> tmp = [
+        new audioCouple('Astro-cazzo', 'assets/murry/stocazzo.mp3'),
         new audioCouple('Come ci si sente', 'assets/murry/18.mp3'),
         new audioCouple('7 è meglio di 6', 'assets/murry/7meglio6.mp3'),
         new audioCouple('Si è aggrumato la siciliana',
             'assets/murry/aggrumatosiciliana.mp3'),
         new audioCouple('Aiutami 1', 'assets/murry/aiutami.mp3'),
         new audioCouple('Aiutami 2', 'assets/murry/aiutami2.mp3'),
-        new audioCouple('Hakuna matata!', 'assets/murry/hakunamatata.mp3'),
+        new audioCouple('Hakuna matata ragazzi!', 'assets/murry/hakunamatata.mp3'),
         new audioCouple('Alla minchia', 'assets/murry/allaminchai.mp3'),
         new audioCouple('Al minchiotril', 'assets/murry/alminchiotril.mp3'),
         //new audioCouple('text', 'assets/murry/altri4gentleman.mp3'),
@@ -297,7 +296,7 @@ class audioListState extends State<audioList> {
             'assets/murry/chimeglioarrivatardialloggia.mp3'),
         new audioCouple(
             'Come sono bello oggi', 'assets/murry/comesonobellooggi.mp3'),
-        new audioCouple('Considerandosi', 'assets/murry/considerandosi.mp3'),
+        new audioCouple('Consinderandosi', 'assets/murry/considerandosi.mp3'),
         new audioCouple(
             'Lei è cornuto e sbirro', 'assets/murry/cornutoesbirro.mp3'),
         new audioCouple(
@@ -307,7 +306,7 @@ class audioListState extends State<audioList> {
         new audioCouple('Ei fù...', 'assets/murry/eifu.mp3'),
         new audioCouple('Elegantemente imbrattato',
             'assets/murry/elegantementeimbrattato.mp3'),
-        new audioCouple('Fica!', 'assets/murry/fica.mp3'),
+        //new audioCouple('Fica!', 'assets/murry/fica.mp3'),
         new audioCouple('Fij e puttan', 'assets/murry/fijeputtan.mp3'),
         new audioCouple(
             'Food challenge di cazzate', 'assets/murry/foodchallenge.mp3'),
@@ -315,7 +314,7 @@ class audioListState extends State<audioList> {
             'Ha un bel merluzzo', 'assets/murry/haunbelmerluzzo.mp3'),
         new audioCouple(
             'Ho avuto gli zirconi', 'assets/murry/hoavutoglizirconi.mp3'),
-        new audioCouple('Il barone non parla...Cannavacciuolo',
+        new audioCouple('Il barone non parla...',
             'assets/murry/ilbaronenonparla.mp3'),
         new audioCouple(
             'Tu ti senti superiore di me', 'assets/murry/ingarbugliamento.mp3'),
@@ -350,7 +349,7 @@ class audioListState extends State<audioList> {
         new audioCouple(
             'Mi sminchio tutto', 'assets/murry/misminchiotutto.mp3'),
         new audioCouple('Mi sono confuso', 'assets/murry/misonoconfuso.mp3'),
-        new audioCouple('Murry poeta', 'assets/murry/murrypoeta.mp3'),
+        new audioCouple('Murry poeta 1', 'assets/murry/murrypoeta.mp3'),
         new audioCouple('*soffoca*', 'assets/murry/murrysoffoca.mp3'),
         new audioCouple('La imulo', 'assets/murry/nonlaimulo.mp3'),
         new audioCouple(
@@ -367,8 +366,7 @@ class audioListState extends State<audioList> {
         new audioCouple(
             'Le palle fino in fondo', 'assets/murry/pallefinoinfondo.mp3'),
         new audioCouple('Pijatelo!', 'assets/murry/pijatelo.mp3'),
-        new audioCouple('Murry poeta 2', 'assets/murry/poeta.mp3'),
-        new audioCouple('Murry poeta 3', 'assets/murry/poeta2.mp3'),
+        new audioCouple('Murry poeta 2', 'assets/murry/poeta2.mp3'),
         new audioCouple('Potrebbe tornare sempre per me',
             'assets/murry/potrebbetornaresempreperme.mp3'),
         new audioCouple('Quel che è fatto è tratto',
@@ -443,7 +441,7 @@ class audioListState extends State<audioList> {
             'E\' venuto molto prima', 'assets/thomas/evenutomoltoprima.mp3'),
         new audioCouple(
             'Ex con problemi si stitichezza', 'assets/thomas/exstitica.mp3'),
-        new audioCouple('GentlemanT', 'assets/thomas/genetlemant.mp3'),
+        new audioCouple('GentlemenT', 'assets/thomas/genetlemant.mp3'),
         new audioCouple('La gravatta', 'assets/thomas/gravatta.wav'),
         new audioCouple('Si è inseminita', 'assets/thomas/inseminita.mp3'),
         new audioCouple('Instagramm', 'assets/thomas/instagramm.mp3'),
@@ -507,7 +505,7 @@ class audioListState extends State<audioList> {
         new audioCouple('Perla di saggezza 5', 'assets/thomas/tagliare.mp3'),
         new audioCouple('Non è la prima volta che ti inceppi',
             'assets/thomas/tiinceppi.mp3'),
-        new audioCouple('Toso!', 'assets/thomas/toso.mp3'),
+        new audioCouple('Toso...', 'assets/thomas/toso.mp3'),
         new audioCouple('Una cosa che mi piace mangiare è la patata',
             'assets/thomas/unacosachemipiacemangiare.mp3'),
         new audioCouple(
@@ -532,14 +530,13 @@ class audioListState extends State<audioList> {
         new audioCouple('Accipicche', 'assets/maurizio/accipicche.mp3'),
         new audioCouple('Ho cercato di darle una mano psicologicamente',
             'assets/maurizio/aiutopsicologico.mp3'),
-        new audioCouple('text', 'assets/maurizio/altamentesoporifero.mp3'),
+        new audioCouple('Lei è altamente soporifero', 'assets/maurizio/altamentesoporifero.mp3'),
         new audioCouple('Amici, zii, cugini, parenti...',
             'assets/maurizio/amiciziicugini.mp3'),
-        new audioCouple('Lei è altamente soporifero',
+        new audioCouple('E\' il famoso animale leggendario',
             'assets/maurizio/animaleleggendario.mp3'),
         //new audioCouple('text', 'assets/maurizio/aooo.mp3'),
-        new audioCouple(
-            'Benvenuti ninja a tavola', 'assets/maurizio/benvenutininja.mp3'),
+       // new audioCouple('Benvenuti ninja a tavola', 'assets/maurizio/benvenutininja.mp3'),
         new audioCouple(
             'Bombetta gentleman', 'assets/maurizio/bombagentleman2.mp3'),
         new audioCouple(
@@ -674,7 +671,7 @@ class audioListState extends State<audioList> {
             'Quanto grugniranno i porcellini quando sentiranno le gride del vecchio cinghiale',
             'assets/maurizio/quantogrugnirannoiporcellini.mp3'),
         new audioCouple(
-            'Il tagù che avanza', 'assets/maurizio/ragucheavanza.mp3'),
+            'Il ragù che avanza', 'assets/maurizio/ragucheavanza.mp3'),
         new audioCouple('Sta bruciando le mie retine',
             'assets/maurizio/retineinfiamme.mp3'),
         new audioCouple(
